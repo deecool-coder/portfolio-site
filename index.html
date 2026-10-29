@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Carter | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Alex Carter, a designer and developer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">Alex<span>Carter</span></div>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Alex Carter</h1>
+            <h2>Designer & Frontend Developer</h2>
+            <p>
+              I build clean, responsive, and user-focused digital experiences
+              that turn ideas into products people love.
+            </p>
+            <div class="cta-row">
+              <a class="btn primary" href="#projects">View Work</a>
+              <a class="btn secondary" href="#contact">Contact Me</a>
+            </div>
+            <ul class="mini-stats">
+              <li><strong>5+</strong><span>Years Experience</span></li>
+              <li><strong>25+</strong><span>Projects</span></li>
+              <li><strong>100%</strong><span>Passion</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="profile-badge">Available for work</div>
+            <div class="avatar">AC</div>
+            <div class="card-info">
+              <h3>Quick Info</h3>
+              <p>Based in London, UK</p>
+              <p>Specializing in web design, UI/UX, and frontend development</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Creating thoughtful digital experiences</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I’m a multidisciplinary designer and developer with a passion for
+                solving problems through visual storytelling and intuitive
+                interfaces.
+              </p>
+              <p>
+                My work combines design thinking, frontend development, and
+                product strategy to create experiences that are beautiful,
+                practical, and effective.
+              </p>
+            </div>
+
+            <div class="info-box">
+              <h3>What I do</h3>
+              <ul>
+                <li>UI/UX Design</li>
+                <li>Responsive Web Design</li>
+                <li>Frontend Development</li>
+                <li>Brand Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and technologies I use</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Design</h3>
+              <p>Figma, Adobe XD, Photoshop, Illustrator</p>
+            </div>
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <p>HTML, CSS, JavaScript, React, Next.js</p>
+            </div>
+            <div class="skill-card">
+              <h3>Development</h3>
+              <p>Responsive layouts, accessibility, performance optimization</p>
+            </div>
+            <div class="skill-card">
+              <h3>Workflow</h3>
+              <p>Git, VS Code, agile workflows, prototyping</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Recent work</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image gradient-one"></div>
+              <div class="project-body">
+                <span>Branding + Web</span>
+                <h3>Northstar Studio</h3>
+                <p>
+                  A creative portfolio redesign for an architecture studio focused
+                  on modern minimalism and storytelling.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image gradient-two"></div>
+              <div class="project-body">
+                <span>Product Design</span>
+                <h3>Nova Finance</h3>
+                <p>
+                  A fintech dashboard concept designed to simplify financial
+                  insights and improve user confidence.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image gradient-three"></div>
+              <div class="project-body">
+                <span>Frontend</span>
+                <h3>Bloom Market</h3>
+                <p>
+                  A clean ecommerce landing page for a modern lifestyle brand with
+                  a strong mobile-first UX.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something great</h2>
+          </div>
+
+          <div class="contact-box">
+            <p>
+              If you want to work together, have a project in mind, or just want
+              to say hello, feel free to reach out.
+            </p>
+            <a href="mailto:alex@example.com" class="btn primary">alex@example.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Alex Carter</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
